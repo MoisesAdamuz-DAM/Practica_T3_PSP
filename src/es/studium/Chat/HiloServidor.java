@@ -73,7 +73,7 @@ public class HiloServidor extends Thread {
 						}
 						else if(Integer.parseInt(numero) == ServidorChat.random)
 						{
-							ServidorChat.textarea.append("> " + nombre + " piensa que el número es el " + numero + ", y ha ACERTADOOOO!!!! \n" + "El ganad@r ha sido: " + nombre + ". \n" + "El juego ha finalizado. ¿Te atreves a jugar otra vez?");	
+							ServidorChat.textarea.append("> " + nombre + " piensa que el número es el " + numero + ", y ha ACERTADOOOO!!!! \n" + "El ganad@r ha sido: " + nombre + ". \n" + "El juego ha finalizado.");	
 							texto = ServidorChat.textarea.getText();
 							EnviarMensajes(texto);
 							Thread.sleep(10000);
